@@ -1,6 +1,6 @@
 # npmdoc-cloudinary
 
-#### api documentation for  [cloudinary (v1.8.0)](http://cloudinary.com)  [![npm package](https://img.shields.io/npm/v/npmdoc-cloudinary.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cloudinary) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cloudinary.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cloudinary)
+#### basic api documentation for  [cloudinary (v1.8.0)](http://cloudinary.com)  [![npm package](https://img.shields.io/npm/v/npmdoc-cloudinary.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cloudinary) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cloudinary.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cloudinary)
 
 #### Cloudinary NPM for node.js integration
 
@@ -76,7 +76,8 @@
         "test": "mocha -R spec --recursive test/",
         "watch": "coffee --watch --map -o lib -c src"
     },
-    "version": "1.8.0"
+    "version": "1.8.0",
+    "bin": {}
 }
 ```
 
